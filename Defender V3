@@ -1,0 +1,37 @@
+local prefix = “.”
+local Scrowner = "dawninja21"
+
+-- Credits to asechka19872(simplekah, simplekah v2 owner)
+
+local function onPlayerAdded(player)
+    game.Players:Chat("h \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n" .. player.Name .. " \n\nAge:"..player.AccountAge.."\n\n\nhas joined the game.🛡️DEFENDER V3🛡️")
+end
+
+local function onPlayerLeaving(player)
+    game.Players:Chat("h \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n" .. player.Name .. " \n\nhas left🛡️DEFENDER V3🛡️")
+end
+
+game.Players.PlayerAdded:Connect(onPlayerAdded)
+game.Players.PlayerRemoving:Connect(onPlayerLeaving)
+
+--------------MESSAGE----------------
+notify("🛡️Defender V3🛡️Loaded.")
+
+-------------CUSTOM CMDS----------------
+
+--------------AUTO CMDS----------------
+local localPlayer = game.Players.LocalPlayer
+
+localPlayer.CharacterAdded:Connect(function()
+    local humanoid = localPlayer.Character:WaitForChild("Humanoid")
+
+    humanoid.HealthChanged:Connect(function(health)
+        if health == 0 then
+            localPlayer:Chat("reset me")
+            localPlayer:Chat("god me")
+        end
+    end)
+end)
+
+--------------DEFENDERS HUB----------------
+game.Players:Chat("h \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n 🛡️DEFENDER🛡️V3 LOADED")
