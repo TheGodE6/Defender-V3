@@ -1,4 +1,4 @@
-local prefix = “.”
+local prefix = “>”
 local Scrowner = "dawninja21"
 
 -- Credits to asechka19872(simplekah, simplekah v2 owner)
@@ -22,16 +22,15 @@ notify("🛡️Defender V3🛡️Loaded.")
 --------------AUTO CMDS----------------
 local localPlayer = game.Players.LocalPlayer
 
-localPlayer.CharacterAdded:Connect(function()
-    local humanoid = localPlayer.Character:WaitForChild("Humanoid")
-
-    humanoid.HealthChanged:Connect(function(health)
-        if health == 0 then
-            localPlayer:Chat("reset me")
-            localPlayer:Chat("god me")
-        end
-    end)
+task.spawn(function()
+    while true do
+        task.wait()
+                if localPlayer.Character.Humanoid.Health == 0 then
+                            Chat("reset me")
+                end
+    end
 end)
 
+
 --------------DEFENDERS HUB----------------
-game.Players:Chat("h \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n 🛡️DEFENDER🛡️V3 LOADED")
+game.Players:Chat("h \n\n\n 🛡️DEFENDER🛡️V3 LOADED \n\n\n")
