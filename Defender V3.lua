@@ -5,7 +5,7 @@ local antikill = true
 local localPlayer = game.Players.LocalPlayer
 local prefix = ">"
 local Scrowner = "dawninja21"
-
+local antiabuse = true
 -- MAIN FUNCTIONS --
 local function notify(msg)
 	game.StarterGui:SetCore("SendNotification", {
