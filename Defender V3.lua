@@ -30,9 +30,18 @@ game.Players.LocalPlayer.Chatted:Connect(function(msg)
         if string.sub(msg:lower(), 1, #prefix + 10) == prefix.."unantikill" then
            antikill = false
         end
+
+	if string.sub(msg:lower(), 1, #prefix + 3) == prefix.."nok" then
+           TNOK("T")
+        end
+		
+        if string.sub(msg:lower(), 1, #prefix + 5) == prefix.."unnok" then
+           TNOK("F")
+        end
 end)
 
 -- MODULES --
+
 local function onPlayerAdded(player)
     ct("h \n\n\n " .. player.Name .. " \n\n\n Age:"..player.AccountAge.." \n\n\n has joined the game. 🛡️DEFENDER V3🛡️ \n\n\n")
 end
@@ -43,6 +52,16 @@ end
 
 game.Players.PlayerAdded:Connect(onPlayerAdded)
 game.Players.PlayerRemoving:Connect(onPlayerLeaving)
+
+function TNOK(mode)
+	for i, v in pairs(game:GetService("Workspace").Terrain._Game.Workspace.Obby:GetChildren()) do
+		if mode == "T" then
+        		v.CanTouch = false
+		else
+			v.CanTouch = true
+		end
+	end
+end
 
 --------------AUTO CMDS----------------
 
