@@ -3,7 +3,7 @@
 -- VARIABLES --
 local antikill = true
 local localPlayer = game.Players.LocalPlayer
-local prefix = “>”
+local prefix = ">"
 local Scrowner = "dawninja21"
 
 -- MAIN FUNCTIONS --
