@@ -33,11 +33,11 @@ game.Players.LocalPlayer.Chatted:Connect(function(msg)
         end
 
 	if string.sub(msg:lower(), 1, #prefix + 3) == prefix.."nok" then
-           TNOK("T")
+           TNOK("on")
         end
 		
         if string.sub(msg:lower(), 1, #prefix + 5) == prefix.."unnok" then
-           TNOK("F")
+           TNOK("off")
         end
 end)
 
@@ -55,7 +55,7 @@ game.Players.PlayerRemoving:Connect(onPlayerLeaving)
 
 function TNOK(mode)
 	for i, v in pairs(game:GetService("Workspace").Terrain._Game.Workspace.Obby:GetChildren()) do
-		if mode == "T" then
+		if mode == "on" then
         		v.CanTouch = false
 		else
 			v.CanTouch = true
