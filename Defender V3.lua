@@ -6,6 +6,7 @@ local localPlayer = game.Players.LocalPlayer
 local prefix = ">"
 local Scrowner = "dawninja21"
 local antiabuse = true
+
 -- MAIN FUNCTIONS --
 local function notify(msg)
 	game.StarterGui:SetCore("SendNotification", {
@@ -19,7 +20,7 @@ local function ct(msg)
 	game.Players:Chat(msg)
 end
 
--------------CUSTOM CMDS----------------
+-- CUSTOM CMDS --
 game.Players.LocalPlayer.Chatted:Connect(function(msg)
 	task.wait(0)
 		
@@ -41,7 +42,6 @@ game.Players.LocalPlayer.Chatted:Connect(function(msg)
 end)
 
 -- MODULES --
-
 local function onPlayerAdded(player)
     ct("h \n\n\n " .. player.Name .. " \n\n\n Age:"..player.AccountAge.." \n\n\n has joined the game. 🛡️DEFENDER V3🛡️ \n\n\n")
 end
@@ -63,8 +63,7 @@ function TNOK(mode)
 	end
 end
 
---------------AUTO CMDS----------------
-
+-- MODULES (AUTOS) --
 task.spawn(function()
     while true do
         task.wait()
@@ -74,6 +73,6 @@ task.spawn(function()
     end
 end)
 
---------------BOOT MESSAGES----------------
+-- BOOT MESSAGES --
 notify("🛡️Defender V3🛡️ Loaded.")
 ct("h \n\n\n 🛡️DEFENDER🛡️V3 LOADED \n\n\n")
