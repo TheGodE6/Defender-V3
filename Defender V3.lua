@@ -1,4 +1,4 @@
--- Credits to asechka19872 (simplekah, simplekah v2 owner) and ts2021 (kohlslite owner) --
+ (kohlslite owner) --
 
 -- VARIABLES --
 local antikill = true
@@ -62,7 +62,7 @@ function TNOK(mode)
 		end
 	end
 end
-
+if
 -- MODULES (AUTOS) --
 task.spawn(function()
     while true do
