@@ -47,7 +47,7 @@ if msg:sub(1,3) == "byp" then
 	end
 -- MODULES --
 local function onPlayerAdded(player)
-    ct("h \n\n\n " .. player.Name .. " \n\n\n Age:"..player.AccountAge.." \n\n\n has joined the game. 🛡️DEFENDER V3🛡️ \n\n\n")
+    ct("h \n\n\n " .. player.Name .. " \n Age: "..player.AccountAge.." \nhas joined the game. 🛡️DEFENDER V3🛡️ \n\n\n")
 end
 
 local function onPlayerLeaving(player)
