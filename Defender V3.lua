@@ -1,4 +1,4 @@
- (kohlslite owner) --
+-- Deprecated DO NOT USE--
 
 -- VARIABLES --
 local antikill = true
@@ -62,7 +62,7 @@ function TNOK(mode)
 		end
 	end
 end
-if
+
 -- MODULES (AUTOS) --
 task.spawn(function()
     while true do
