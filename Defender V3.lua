@@ -41,6 +41,10 @@ game.Players.LocalPlayer.Chatted:Connect(function(msg)
         end
 end)
 
+local txt = msg:sub(1,3)
+if msg:sub(1,3) == "byp" then
+	ct("h \n\n\n\n\n\n\n\n\"..text.."\n\n\n\n\n\n\n\n\")
+	end
 -- MODULES --
 local function onPlayerAdded(player)
     ct("h \n\n\n " .. player.Name .. " \n\n\n Age:"..player.AccountAge.." \n\n\n has joined the game. 🛡️DEFENDER V3🛡️ \n\n\n")
