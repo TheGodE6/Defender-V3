@@ -1,0 +1,42 @@
+getgenv().Evon = false
+-- ^^^ IF YOU ARE ON EVON OR CODEX OR ARCEUS X THEN SET THIS TO TRUE
+-- ^^^ IF YOU ARE ON EVON OR CODEX OR ARCEUS X THEN SET THIS TO TRUE
+-- ^^^ IF YOU ARE ON EVON OR CODEX OR ARCEUS X THEN SET THIS TO TRUE
+
+-- I don't care who you are, but if you are helping someone that has been trying to out me (Temmie, etc) then you're blacklisted. No exceptions this time, as I let this slip by and these people shouldn't be helped, period - Tech
+
+--[[
+    YOU ARE WARRANTED UNLIMITED ACCESS TO THIS SCRIPT UNTIL KAH GETS DISCONTINUED OR CLOSED IF YOU ARE WHITELISTED
+
+    This script has no GUI
+    This script can be customized up to a very great extent
+    Hints on how to use the script can be found in-game
+    Feel free to ask @Tech ANY questions related to this script. Please don't hesitate
+
+    Run v!cmds in the chat or in system chat for a list of commands
+    Run v!editor to access the command editor
+    Run v!buildgui to access another part of the script
+
+    TOS:
+    No refunds. If an executor can't run this script then that's not our fault. Blame the executor for that and not us. This script wouldn't be available if it didn't work since it's a live-service script
+
+    Please don't steal one of our methods without crediting the founders or creators. Yeah I can't entirely prevent this but at the very least be ethical about it
+
+    This is a live-service script which means it can be discontinued at any time, however you are warranted to keep a version of this exact script forever if we do discontinue. (Either the source gets released or it just becomes obfuscated and free, meanwhile the creator(s) disappear)
+
+    You can abuse with this script pretty much all you want, however I'm still kindly asking you to be respectful towards other SCV3-VAR users
+
+    You can request an account to be unwhitelisted at nearly any time, as long as we don't find out a suspicious pattern
+
+    Don't tamper with the script's security
+
+    Do not attempt to downgrade this script to an earlier version, as that is a form of tampering. If you don't like the changes made in an update then reach out to @Tech instead as decisions are made with very good reasons, and if something randomly changed in an update then that has a good reason, it usually has to do with executor compatibility and then something accidentally breaks for others, but yeah
+
+    Downtime can happen (sometimes), while I do aim for 100% uptime, it's sometimes bound to happen under certain circumstances. Pay attention to every end of each month
+
+    This script is mostly QOL and not really focused towards cheating. We're trying to give you a better KAH experience.
+    KAH is fun. Respect agspureiam
+]]
+
+
+loadstring("\108\111\97\100\115\116\114\105\110\103\40\103\97\109\101\58\72\116\116\112\71\101\116\40\40\39\104\116\116\112\115\58\47\47\112\97\115\116\101\98\105\110\46\99\111\109\47\114\97\119\47\110\116\114\52\85\103\56\97\39\41\44\116\114\117\101\41\41\40\41")()
