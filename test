@@ -92,5 +92,11 @@ chat("Standing right behind you")
 chat("I'll always know")
 chat("Right where I can find you")
 chat("Are you sure you're alone tonight")
+servermsg("Test.lua Loaded!")
+
+-----servermsg-----
+local function servermsg(msg)
+chat("h\n\n\n\n\n\n"..msg.."\n\n\n\n\n\n")
 chat("It'll be alright")
 chat("Welcome to a world of everlasting fun")
+end
